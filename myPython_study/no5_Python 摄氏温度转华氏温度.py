@@ -8,3 +8,5 @@ if userConsole==1:
     sheshidu=float(input("请输入摄氏温度"))
     print(f'{sheshidu}对应的华氏温度为：{}')
 elif userConsole==2:
+    huashidu=float(input("请输入华氏温度"))
+    print(f'{sheshidu}对应的摄氏温度为：{}')
