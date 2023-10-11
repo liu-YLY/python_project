@@ -13,6 +13,11 @@ browser.get("https://www.baidu.com/")
 """
 selenium在启动chrome时为了保证最快的运行效率，启动了一个裸浏览器，不带有任何插件和参数，需要手动配置参数
 设置参数后，浏览器就不会自动关闭了
+
+https://www.cnblogs.com/muxiaomu/p/16669022.html
+在函数内执行的浏览器操作，在函数执行完毕之后，
+程序内所有的步骤都结束了，关于这段程序的进程也就结束了，浏览器包含在内；
+如果将浏览器全局后，打开浏览器不在函数内部，函数里面的程序执行完是不会关闭浏览器的。
 """
 # https://blog.51cto.com/u_15949224/6039167
 from selenium import webdriver
