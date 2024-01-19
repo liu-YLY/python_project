@@ -65,9 +65,9 @@ def pytest_html_results_table_html(report, data):
 
 
 def _capture_screenshot():
-    """
+    '''
     截图保存为base64
     :return:
-    """
+    '''
     return driver.get_screenshot_as_base64()
 
