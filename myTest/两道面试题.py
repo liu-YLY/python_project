@@ -1,4 +1,11 @@
 # 第一道
+"""
+参考文档：
+    Python 中的 type 和 isinstance
+    https://www.freecodecamp.org/chinese/news/python-type-and-isinstance/
+"""
+
+
 class A(object):
     pass
 
