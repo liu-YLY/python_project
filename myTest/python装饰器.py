@@ -17,3 +17,11 @@ def funB(desB):
 @funA
 def funC():
     print("It's funC")
+
+
+'''
+It's funA
+It's funB
+---
+None
+'''

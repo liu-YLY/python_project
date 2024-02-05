@@ -7,5 +7,5 @@ params = {
 }
 url = "https://qqlykm.cn/api/weather/get"
 WeatherAPIKey = requests.get(url, params=params)
-#WeatherData = json.loads(WeatherAPIKey.text)
+# WeatherData = json.loads(WeatherAPIKey.text)
 print(repr(WeatherAPIKey))
